@@ -6,10 +6,12 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
 import styles from '../organisms/header-footer/header/header.scss'
+import mainStyles from "./main.scss"
 import * as ContentActions from '../../actions/content.js'
 import * as LoadingActions from '../../actions/loading.js'
 import { MainLoader } from 'molecules'
 import { DisasterAlert, Footer, Header, ModalController, NotificationBar } from 'organisms'
+import LexChat from "react-lex";
 
 const shouldNotificationBarBeVisible = (listOfUrls, currentPathname, isCookiePresent) => {
   let boolean
@@ -145,6 +147,15 @@ class Main extends React.Component {
 
         <Footer />
         <ModalController />
+        <div className={mainStyles.chatWindow}>
+          <LexChat botName="SBABot"
+             IdentityPoolId="us-east-1:24688338-c843-4c27-8893-cc1239faf486"
+             placeholder="Ask me something"
+             style={{position: 'absolute'}}
+             backgroundColor="#ffffff"
+             height="430"
+             headerText="SBA Help" />
+        </div>
       </div>
     )
   }

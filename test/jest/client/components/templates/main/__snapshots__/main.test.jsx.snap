@@ -34,6 +34,23 @@ ShallowWrapper {
     />
     <Footer />
     <Connect(ModalController) />
+    <div
+        className="chatWindow"
+    >
+        <LexChat
+            IdentityPoolId="us-east-1:24688338-c843-4c27-8893-cc1239faf486"
+            backgroundColor="#ffffff"
+            botName="SBABot"
+            headerText="SBA Help"
+            height="430"
+            placeholder="Ask me something"
+            style={
+                Object {
+                    "position": "absolute",
+                  }
+            }
+        />
+    </div>
 </div>,
   "nodes": Array [
     <div
@@ -62,6 +79,23 @@ ShallowWrapper {
       />
       <Footer />
       <Connect(ModalController) />
+      <div
+            className="chatWindow"
+      >
+            <LexChat
+                  IdentityPoolId="us-east-1:24688338-c843-4c27-8893-cc1239faf486"
+                  backgroundColor="#ffffff"
+                  botName="SBABot"
+                  headerText="SBA Help"
+                  height="430"
+                  placeholder="Ask me something"
+                  style={
+                        Object {
+                              "position": "absolute",
+                            }
+                  }
+            />
+      </div>
 </div>,
   ],
   "options": Object {},
@@ -137,6 +171,23 @@ ShallowWrapper {
           />
           <Footer />
           <Connect(ModalController) />
+          <div
+                    className="chatWindow"
+          >
+                    <LexChat
+                              IdentityPoolId="us-east-1:24688338-c843-4c27-8893-cc1239faf486"
+                              backgroundColor="#ffffff"
+                              botName="SBABot"
+                              headerText="SBA Help"
+                              height="430"
+                              placeholder="Ask me something"
+                              style={
+                                        Object {
+                                                  "position": "absolute",
+                                                }
+                              }
+                    />
+          </div>
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div
@@ -165,6 +216,23 @@ ShallowWrapper {
           />
           <Footer />
           <Connect(ModalController) />
+          <div
+                    className="chatWindow"
+          >
+                    <LexChat
+                              IdentityPoolId="us-east-1:24688338-c843-4c27-8893-cc1239faf486"
+                              backgroundColor="#ffffff"
+                              botName="SBABot"
+                              headerText="SBA Help"
+                              height="430"
+                              placeholder="Ask me something"
+                              style={
+                                        Object {
+                                                  "position": "absolute",
+                                                }
+                              }
+                    />
+          </div>
 </div>,
       },
       "_renderedNodeType": 0,

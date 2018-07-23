@@ -1,0 +1,12 @@
+.chatWindow {
+    z-index: 1000000000000000000;
+}
+
+:global(#chat-header-rect) {
+    background-color: #cc0000 !important;
+    // color:  #002e6d;
+}
+
+#chat-container{
+    // color:  #002e6d;
+}
