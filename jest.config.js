@@ -6,7 +6,8 @@ module.exports = {
       },
       isUserLoggedIn: false,
       katanaRedirectPaths: [],
-      searchUrl: '/mysearch?q='
+      searchUrl: '/mysearch?q=',
+      sbaOfficeNames: []
     }
   },
   moduleNameMapper: {
