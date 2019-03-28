@@ -74,8 +74,8 @@ describe('SearchPage', () => {
     })
   })
 
-  describe('SuggestedRoute', () => {
-    it('should display SuggestedRouteCard when there is a search term', () => {
+  describe('SuggestedRouteCard', () => {
+    it('should display when there is a search term', () => {
       const component = shallow(<SearchPage {...props} />)
       component.setState({
         searchTerm: 'my search term'
@@ -84,7 +84,7 @@ describe('SearchPage', () => {
       const expected = 1
       expect(result).toEqual(expected)
     })
-    it('should not display SuggestedRouteCard when there is no search term', () => {
+    it('should not display when there is no search term', () => {
       const component = shallow(<SearchPage {...props} />)
       component.setState({
         searchTerm: ''
