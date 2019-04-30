@@ -15,7 +15,10 @@ const mockPersonData = {
   lastName: 'Rivera',
   office: 7322,
   phone: {},
-  picture: '/sites/default/files/2019-02/bio-james-rivera.jpg',
+  picture: {
+    alt: 'alt text for image',
+    url: '/sites/default/files/2019-02/bio-james-rivera.jpg'
+  },
   shortBio: 'this is a short bio',
   title: 'Associate Administrator',
   type: 'person',
